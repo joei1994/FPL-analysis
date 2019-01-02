@@ -44,8 +44,16 @@ def parse_data():
     base_filename = 'data/' + season + '/'
     print("Parsing summary data")
     parse_players(data["elements"], base_filename)
+
     print("Cleaning summay data")
     clean_players(base_filename + 'players_raw.csv', base_filename)
+
+    print("Parsing Teams")
+    parse_teams(data['teams'], base_filename)
+
+    print("Parsing Element Types")
+    parse_element_types(data['element_types'], base_filename)
+
     print("Extracting player ids")
     id_players(base_filename + 'players_raw.csv', base_filename)
     player_ids = get_player_ids(base_filename)
