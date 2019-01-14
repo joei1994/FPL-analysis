@@ -1,16 +1,6 @@
-Fantasy-Premier-League
-======================
+The analysis was split into 2 part 
+1. Players Analysis
+This is about ploting  players stats to help you make a decision on choosing players for your team.
 
-A FPL library that gets all the basic stats for each player, gw-specific data for each player and season history of each player
-
-## Notable Usages of this Repository
-
-+ [Visualization by u/dkattir](https://www.reddit.com/r/dataisbeautiful/comments/9zlx14/points_per_game_vs_predictability_after_12_weeks/)
-
-+ [Visualization by u/Dray11](https://www.reddit.com/r/FantasyPL/comments/9bjwra/created_a_very_crude_and_basic_comparison_chart/)
-
-+ [Visualization website by @antoniaelek](http://fantasy.elek.hr/)
-
-+ [FPL Captain Classifier by Raghunandh GS](https://medium.com/datacomics/building-an-fpl-captain-classifier-cf4ee343ebcc)
-
-+ [My Personal Blog](http://vaastavanand.com/blog/)
+2. Captaincy Analysis
+Use machine learning to build predictive model to predict if players will score on the up coming week or not.
