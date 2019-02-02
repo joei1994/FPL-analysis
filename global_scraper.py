@@ -45,7 +45,7 @@ def parse_data():
     print("Parsing summary data")
     parse_players(data["elements"], base_filename)
 
-    print("Cleaning summay data")
+    print("Cleaning summary data")
     clean_players(base_filename + 'players_raw.csv', base_filename)
 
     print("Parsing Teams")
@@ -66,7 +66,7 @@ def parse_data():
         player_data = get_individual_player_data(i+1)
         parse_player_history(player_data["history_past"], player_base_filename, player_ids[i+1], i+1)
         parse_player_gw_history(player_data["history"], player_base_filename, player_ids[i+1], i+1)
-    collect_gw(22, player_base_filename,gw_base_filename) 
+    collect_gw(24, player_base_filename,gw_base_filename) 
 
 def main():
     parse_data()
