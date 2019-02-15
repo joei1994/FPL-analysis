@@ -5,5 +5,7 @@ I were inspired by a movie named “MoneyBall”, this movie is about a baseball
 With that idea I started searching for Premiere League dataset hope to find ready-to-use dataset so I can develop my new strategy. Unfortunately, there is no such a thing. But what I’ve found is public APIs of Premiere League. So, I write scraping scripts to gather all data I want from that APIs and start analyse the data.
 
 My analysis was splitted into 2 parts
+
    1. Players analysis: Analyse each player stats and use insights gained from that analysis to form a group of players that tend to produce the highest points throughout the season under a constrained budget.
-   2.Captaincy analysis: Use players historical stats to build models which can predict Is a player likely to score in the upcoming week or not. In FPL, you can pick one of your team to be the captain and choosing the right captain is very important because points gained by your captain will be doubled.
+    
+    2.Captaincy analysis: Use players historical stats to build models which can predict Is a player likely to score in the upcoming week or not. In FPL, you can pick one of your team to be the captain and choosing the right captain is very important because points gained by your captain will be doubled.
