@@ -4,7 +4,7 @@
 
 My analysis was splitted into 2 parts
 
-  1. Form the right squad: Analyse each player stats and use insights gained from that analysis to form a group of players that tend to produce the highest score throughout the season under a constrained budget.
+ 1. Form the right squad: Analyse each player stats and use insights gained from that analysis to form a group of players that tend to produce the highest score throughout the season under a constrained budget.
 
   
   2.Choose the right captain: Use players historical stats to build models which predict how likely a player will score in the upcoming week. In FPL, you can pick one of your team to be the captain and choosing the right captain is very important because points gained by your captain will be doubled.
